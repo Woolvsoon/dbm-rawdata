@@ -1,0 +1,70 @@
+{
+  "name": "boostinfo",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "KUoYq",
+  "actions": [
+    {
+      "server": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "server_name",
+      "name": "Store Server Info"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "44",
+      "storage": "1",
+      "varName2": "boosty",
+      "name": "Store Server Info"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "45",
+      "storage": "1",
+      "varName2": "boost_level",
+      "name": "Store Server Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Informacje o ulepszeniach",
+          "url": "",
+          "color": "ff6bfa",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "https://i.redd.it/qq911bvdqwu51.gif",
+          "description": "``🌐``│Serwer:\n**${tempVars(\"server_name\")}**\n\n``💎``│Ilość Boostów:\n**${tempVars(\"boosty\")}**\n\n``🔱``│Level serwera:\n**${tempVars(\"boost_level\")}**",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "4",
+  "description": "Sprawdź ulepszenia serwera"
+}
